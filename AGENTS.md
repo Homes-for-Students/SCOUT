@@ -2,17 +2,13 @@
 
 This Agents.md file provides comprehensive guidance for OpenAI Codex and other AI agents working with this codebase.
 
-AGENTS.md
-
-Project Purpose
-
-This repository contains student accommodation market reports in PDF format. The objective is to enable Codex (or an autonomous agent) to read, parse, and analyze these reports from the following path:
+Project Purpose : This repository contains student accommodation market reports in PDF format. The objective is to enable Codex (or an autonomous agent) to read, parse, and analyze these reports from the following path:
 
 Target Folder: sturents-reports/StuRents Reports 2018/Q1/
 
 These files are stored using Git Large File Storage (LFS). Agents should handle LFS pointers and work with the actual PDF content.
 
-Agent Instructions
+Agent Instructions:
 
 1. LoaderAgent
 
